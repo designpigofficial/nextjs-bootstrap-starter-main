@@ -1,0 +1,25 @@
+/* width */
+::-webkit-scrollbar {
+    width: 11px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fbfbfb;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #022022;
+    border: 1px solid #022022;
+    border-radius: 15;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00110f;
+  }
+
+  .Hero{
+      background: url(../public/hero.JPG)
+  }
