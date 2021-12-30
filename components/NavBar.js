@@ -38,8 +38,8 @@ const NavBar = () => {
         <Link href="/">
           <a>
             <Navbar.Brand style={{color:"rgba(0,17,15,1)"}}>
-              <Image src={Logo} alt={'Custom Timber Works Logo'} width={100} height={80} />
-              <span>Custom<span style={{color:'yellow'}}>Timber</span>Works</span>
+              <Image src={Logo} alt={'Custom Timber Works Logo'} width={50} height={40} />
+              <span style={{color:'#022022'}}>Custom<span style={{color:'yellow'}}>Timber</span>Works</span>
             </Navbar.Brand>
           </a>
         </Link>
@@ -67,7 +67,7 @@ const NavBar = () => {
             <Link href="#!">
               <a
                 className={
-                  router.pathname == "/projects" ? "nav-link active" : "nav-link"
+                  router.pathname == "#Projects" ? "nav-link active" : "nav-link"
                 }
               >
                 Projects
