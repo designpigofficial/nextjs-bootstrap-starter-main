@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 import Hero from "../components/home/Hero";
-import Services from "../components/home/Services";
+import Projects from "../components/home/Projects ";
 
 import Layout from "../components/layout";
 
